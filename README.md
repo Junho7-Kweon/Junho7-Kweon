@@ -1,6 +1,6 @@
 <h2 align="center">Hi there 👋</h2>
 <p align="center">
-  SK Networks Family AI Camp에서 LLM · RAG · Agent를 직접 만들며 배우고 있는 <b>준호</b>입니다.
+  SK Networks Family AI Camp에서 LLM · RAG · Agent를 직접 만들며 배우고 있는 <b>권준호</b>입니다.
 </p>
 
 <p align="center">
