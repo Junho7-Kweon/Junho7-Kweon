@@ -1,7 +1,7 @@
 <h2 align="center">Hi there 👋</h2>
 <p align="center">
   SK Networks Family AI Camp에서 ML · LLM · RAG · Agent를 직접 만들며 배우고 있는 <b>권준호</b>입니다.<br>
-  조기축구팀 <b>LIGER C.F</b>를 운영하며, 팀 홈페이지를 직접 만들고 있어요. ⚽
+
 </p>
 
 <p align="center">
