@@ -1,6 +1,7 @@
 <h2 align="center">Hi there 👋</h2>
 <p align="center">
-  SK Networks Family AI Camp에서 ML · LLM · RAG · Agent를 직접 만들며 배우고 있는 <b>권준호</b>입니다.
+  SK Networks Family AI Camp에서 ML · LLM · RAG · Agent를 직접 만들며 배우고 있는 <b>권준호</b>입니다.<br>
+  조기축구팀 <b>LIGER C.F</b>를 운영하며, 팀 홈페이지를 직접 만들고 있어요. ⚽
 </p>
 
 <p align="center">
@@ -9,6 +10,9 @@
   </a>
   <a href="https://github.com/Junho7-Kweon/LLM-EDU">
     <img src="https://img.shields.io/badge/LLM--EDU%20Repo-181717?style=for-the-badge&logo=github&logoColor=white">
+  </a>
+  <a href="https://www.instagram.com/ligercf_official">
+    <img src="https://img.shields.io/badge/LIGER%20C.F-E4405F?style=for-the-badge&logo=instagram&logoColor=white">
   </a>
 </p>
 
@@ -19,6 +23,7 @@
 <p align="center"><b>Language & Data</b></p>
 <p align="center">
   <img src="https://img.shields.io/badge/PYTHON-3776AB?style=for-the-badge&logo=python&logoColor=white">
+  <img src="https://img.shields.io/badge/JAVASCRIPT-F7DF1E?style=for-the-badge&logo=javascript&logoColor=black">
   <img src="https://img.shields.io/badge/PANDAS-150458?style=for-the-badge&logo=pandas&logoColor=white">
   <img src="https://img.shields.io/badge/NUMPY-013243?style=for-the-badge&logo=numpy&logoColor=white">
   <img src="https://img.shields.io/badge/PYDANTIC-E92063?style=for-the-badge&logo=pydantic&logoColor=white">
@@ -46,8 +51,9 @@
   <img src="https://img.shields.io/badge/TAVILY-0F172A?style=for-the-badge">
 </p>
 
-<p align="center"><b>Service · Visualization</b></p>
+<p align="center"><b>Frontend · Service · Visualization</b></p>
 <p align="center">
+  <img src="https://img.shields.io/badge/REACT-20232A?style=for-the-badge&logo=react&logoColor=61DAFB">
   <img src="https://img.shields.io/badge/STREAMLIT-FF4B4B?style=for-the-badge&logo=streamlit&logoColor=white">
   <img src="https://img.shields.io/badge/FASTAPI-009688?style=for-the-badge&logo=fastapi&logoColor=white">
   <img src="https://img.shields.io/badge/PLOTLY-3F4F75?style=for-the-badge&logo=plotly&logoColor=white">
@@ -69,6 +75,7 @@
   <img src="https://img.shields.io/badge/GOOGLE%20CALENDAR%20API-4285F4?style=for-the-badge&logo=googlecalendar&logoColor=white">
   <img src="https://img.shields.io/badge/GOOGLE%20OAUTH-4285F4?style=for-the-badge&logo=google&logoColor=white">
   <img src="https://img.shields.io/badge/MLB%20STATS%20API-002D72?style=for-the-badge">
+  <img src="https://img.shields.io/badge/YOUTUBE-FF0000?style=for-the-badge&logo=youtube&logoColor=white">
 </p>
 
 ---
@@ -91,8 +98,9 @@
 
 | 프로젝트 | 설명 | 역할 | 사용 기술 |
 |---|---|---|---|
-| **CarBTI** (1차 팀 프로젝트) | MBTI 방식으로 성향에 맞는 자동차를 추천하는 웹 앱 | 데이터 파이프라인 전담: ERD 설계, 차량 스펙 크롤링(carnoon.co.kr), 네이버 뉴스 API 연동, TiDB Cloud 적재, 가격 데이터 검수, Git 충돌 해결, SSL·`.env` 환경 이슈 해결 | Python, MySQL, TiDB Cloud, Git |
-| **⚾ BMS — Baseball Management System** (2차 팀 프로젝트, 5인) | 선수 이탈 위험 예측부터 팀 전력·승률 시뮬레이션, 대체 선수 추천까지 연결한 MLB 구단 의사결정 지원 시스템 | **팀 리더 · 이탈 라벨 설계 및 원인 다중분류**: L1·L2·L2b·L3 계층 라벨 체계 설계, 최신 시즌 검열 처리, Lahman·MLB 부상 데이터 병합, 약지도학습 기반 원인 라벨 생성, Random Forest·MLP 비교, `unknown` 과다 문제를 분석해 클래스 2종 추가, Streamlit 이탈 근거 카드 연동 | Python, scikit-learn, LightGBM, XGBoost, PyTorch, Optuna, Streamlit, Plotly, Supabase |
+| **⚽ LIGER C.F 팀 홈페이지** (진행 중) | 조기축구팀 LIGER C.F의 선수 등록, 경기별 출석, 포지션, 공지, 경기 일정과 영상을 한곳에서 관리하는 팀 홈페이지. 외국인 팀원을 위한 영문 버전 지원 | **기획 · 개발 총괄**: 팀 운영 경험을 바탕으로 기능 설계, 선수별 출석률 집계, 포지션별 예상 라인업 자동 구성(출석자 전원 최소 3쿼터 출전 조건), FIFA 스타일 선수 카드, 경기 평점과 POTM 투표 규칙 설계, 팀원과 GitHub PR 협업 및 병합 | React, GitHub(PR 협업), YouTube 연동, LLM |
+| **CarBTI** (SKN-AI 1차 팀 프로젝트) | MBTI 방식으로 성향에 맞는 자동차를 추천하는 웹 앱 | 데이터 파이프라인 전담: ERD 설계, 차량 스펙 크롤링(carnoon.co.kr), 네이버 뉴스 API 연동, TiDB Cloud 적재, 가격 데이터 검수, Git 충돌 해결, SSL·`.env` 환경 이슈 해결 | Python, MySQL, TiDB Cloud, Git |
+| **⚾ BMS — Baseball Management System** (SKN-AI 2차 팀 프로젝트) | 선수 이탈 위험 예측부터 팀 전력·승률 시뮬레이션, 대체 선수 추천까지 연결한 MLB 구단 의사결정 지원 시스템 | **팀 리더 · 이탈 라벨 설계 및 원인 다중분류**: L1·L2·L2b·L3 계층 라벨 체계 설계, 최신 시즌 검열 처리, Lahman·MLB 부상 데이터 병합, 약지도학습 기반 원인 라벨 생성, Random Forest·MLP 비교, `unknown` 과다 문제를 분석해 클래스 2종 추가, Streamlit 이탈 근거 카드 연동 | Python, scikit-learn, LightGBM, XGBoost, PyTorch, Optuna, Streamlit, Plotly, Supabase |
 | **MCP 통합 프로젝트** | MCP 서버/클라이언트와 FastAPI 웹앱에 날씨·검색·캘린더·VectorDB 도구를 연결 | MCP 서버/클라이언트 구성 및 mcp v2 호환 수정 | MCP, FastAPI, Tavily, Google Calendar, FAISS |
 | **[LLM-EDU](https://github.com/Junho7-Kweon/LLM-EDU)** | OpenAI API부터 LangChain, LangGraph, RAG, Agent까지 실습 기록 | 개인 학습 | LangChain, LangGraph, FAISS |
 
